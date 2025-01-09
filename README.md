@@ -1,0 +1,2 @@
+# Tcl String Comparison Pitfall: Numeric Strings
+This example demonstrates a common mistake in Tcl when comparing numeric values stored as strings. Tcl's '==' operator performs a string comparison; therefore, "1" and "1.0" are considered different.  The solution shows the correct way to handle numeric comparisons.
